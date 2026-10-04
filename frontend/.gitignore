@@ -1,0 +1,28 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment / secrets
+.env
+
+# Database and generated files (the app recreates these automatically)
+*.db
+uploads/*
+reports/*
+
+# Test videos (large files, and they are personal recordings)
+*.mp4
+*.avi
+*.mov
+
+# Frontend
+node_modules/
+frontend/dist/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
