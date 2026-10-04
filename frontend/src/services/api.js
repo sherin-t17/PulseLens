@@ -1,6 +1,6 @@
 // All communication with the FastAPI backend lives in this one file.
 
-const API = "/api";
+const API = (import.meta.env.VITE_API_URL || "") + "/api";
 
 // No login system: each browser gets a random anonymous ID, sent with every
 // request, so people only see their own measurements.
